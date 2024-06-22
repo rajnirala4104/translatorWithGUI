@@ -8,10 +8,7 @@ root.geometry("400x250")
 root.resizable(0,0)
 root.config(background="blue")
 
-# print(bhasha)
-
 def showText():
-    # print(userText.get())
     USER_TEXT = userText.get()
     if USER_TEXT == "":
         speakTheSentence("apko khuchh likhna parega tabhi to mai bolungi, nahito pata chala mene kuchh ulta sidha bol diya tab to mere source code ko delete kar doge", LANGCODES[language.get()])
