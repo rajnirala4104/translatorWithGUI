@@ -11,7 +11,7 @@ root.config(background="blue")
 def showText():
     USER_TEXT = userText.get()
     if USER_TEXT == "":
-        speakTheSentence("apko khuchh likhna parega tabhi to mai bolungi, nahito pata chala mene kuchh ulta sidha bol diya tab to mere source code ko delete kar doge", LANGCODES[language.get()])
+        speakTheSentence("apko khuchh likhna parega tabhi to mai bolungi, nahito pata chala mene kuchh ulta sidha bol diya tab to tum mere source code ko delete kar doge", LANGCODES[language.get()])
         root.destroy()
     speakTheSentence(USER_TEXT, LANGCODES[language.get()])
     userText.set("")
